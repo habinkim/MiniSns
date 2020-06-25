@@ -1,0 +1,33 @@
+{
+	"folders": {},
+	"connections": {
+		"mariaDB-1720c5a9f42-6a40f08801b82340": {
+			"provider": "mysql",
+			"driver": "mariaDB",
+			"name": "MariaDB - mini_sns_test",
+			"save-password": true,
+			"show-system-objects": true,
+			"read-only": false,
+			"configuration": {
+				"host": "bpns-mobile01-db.cmw1xxldiscx.ap-northeast-2.rds.amazonaws.com",
+				"port": "3306",
+				"database": "mini_sns_test",
+				"url": "jdbc:mysql://bpns-mobile01-db.cmw1xxldiscx.ap-northeast-2.rds.amazonaws.com:3306/mini_sns_test",
+				"home": "C:\\Program Files\\MariaDB 10.2",
+				"type": "dev",
+				"auth-model": "native",
+				"handlers": {}
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false
+		}
+	}
+}

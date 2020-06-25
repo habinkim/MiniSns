@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Example</title>
+</head>
+<body>
+	<table th:object="${object}">
+		<tr><th>index</th><td th:text="*{IDX}"></td></tr>
+		<tr><th>CONTENTS</th><td th:text="*{CONTENTS}"></td></tr>
+		<tr><th>IB_USER_KAKAO_USERID</th><td th:text="*{IB_USER_KAKAO_USERID}"></td></tr>
+	</table>
+</body>
+</html>
